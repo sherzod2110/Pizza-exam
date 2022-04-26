@@ -1,0 +1,168 @@
+.right {
+  border-left: 2px solid black;
+  margin-top: 15px;
+}
+
+.box {
+  height: 190px;
+}
+.form-select {
+  max-width: 200px;
+}
+
+.box-1 {
+  height: 100px;
+}
+
+.selest-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.result-wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.choose-select-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 10px;
+}
+.text-result {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 3px;
+}
+.title {
+  padding-bottom: 15px;
+}
+
+.pizza-size-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.pizzaSize-radio {
+  display: none;
+}
+
+.radio-label {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-left: 8px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.radio-label:active {
+  background-image: url("../Img/images\ \(1\).jpg");
+  background-size: 95px 95px;
+  background-color: rgba(47, 47, 47, 0.829);  
+  color: rgb(255, 255, 255);     
+  font-size: 20px;   
+} 
+
+.text-size {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 10px
+}
+
+.add-vegetables-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.item-wrap {
+  width: 100%;
+  padding: 0;
+  max-width: 450px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.js-additioanl-list {
+  width: 100%;
+  max-width: 330px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.addVegetables-item {
+  width: 207px;
+  padding: 5px 5px 5px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+
+.addVegetables-label {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.add-vegetables-item {
+  margin: 0;
+  margin: 3px;
+}
+
+
+.js-vegetables-list-wrapper li {
+  color: rgb(110, 203, 110);
+  font-weight: 600;
+  margin-left: 24px;
+  position: relative;
+}
+
+.additioanl-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.addtionals-item {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  list-style-type: none;
+  padding: 0;
+}
+.form-check-input {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-check-input:checked {
+  background-color: rgba(186, 66, 112, 1);
+}
+.item li {
+  font-weight: 600;
+  margin-left: 10px;
+  color: rgb(110, 203, 110);
+}
